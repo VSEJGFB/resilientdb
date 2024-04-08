@@ -31,7 +31,7 @@
 
 ######## SGX SDK Settings ########
 
-SGX_SDK ?= /home/ubuntu/sgx_sdk/sgxsdk
+SGX_SDK ?= /opt/intel/sgxsdk
 SGX_MODE ?= SIM
 SGX_ARCH ?= x64
 NANOMSG = ../deps/nng-1.3.2
