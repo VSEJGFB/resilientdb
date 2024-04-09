@@ -16,7 +16,7 @@ from hostnames import *
 import socket
 
 dashboard = None
-home_directory = "/home/ubuntu"
+home_directory = "/root"
 PATH = os.getcwd()
 #result_dir = PATH + "/results/"
 result_dir = home_directory+"/resilientdb/results/"

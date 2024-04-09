@@ -15,14 +15,16 @@ fi
 
 SNODES=(
 	# Server ip addresses line separated 
-	# "10.0.1.1"
-	# "10.0.1.2"
+	"10.0.0.175"
+	"10.0.0.174"
+	"10.0.0.173"
+	"10.0.0.172"
 )
 
 CNODES=(
 	# Client ip addresses line separated
 	# "10.0.1.3"
-	# "10.0.1.4" 
+	"10.0.0.176" 
 )
 
 rm ifconfig.txt hostnames.py
