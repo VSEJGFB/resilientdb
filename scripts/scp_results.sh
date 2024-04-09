@@ -1,5 +1,5 @@
 #!/bin/bash
-USERNAME=ropt
+USERNAME=root
 home_directory="/root"
 nodes=$1
 name=$2
