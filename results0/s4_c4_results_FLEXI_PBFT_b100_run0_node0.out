@@ -1,0 +1,957 @@
+g_done_timer 60000000000
+g_thread_cnt 5
+g_zipf_theta 0.500000
+g_node_id 0
+g_client_rem_thread_cnt 1
+g_client_send_thread_cnt 1
+g_max_txn_per_part 4000
+g_load_per_server 1
+g_inflight_max 7000
+g_mpr 1.000000
+g_mpitem 0.010000
+g_part_per_txn 1
+g_req_per_query 1
+g_client_node_cnt 4
+g_rem_thread_cnt 2
+g_send_thread_cnt 1
+g_client_thread_cnt 1
+g_part_cnt 1
+g_node_cnt 4
+g_thread_cnt 5
+g_query_intvl 1
+g_prt_lat_distr 0
+g_part_alloc 0
+g_mem_pad 1
+g_perc_multi_part 1.000000
+g_tup_read_perc 0.500000
+g_tup_write_perc 0.500000
+g_txn_read_perc 0.500000
+g_txn_write_perc 0.500000
+g_synth_table_size 524288
+g_field_per_tuple 10
+g_data_perc 100.000000
+g_access_perc 0.030000
+g_strict_ppt 1
+g_network_delay 0
+g_total_thread_cnt 8
+g_total_client_thread_cnt 3
+g_total_node_cnt 8
+g_seq_batch_time_limit 5000000
+Random seed: 4886550559450
+CPU clock is:  3.500000
+Initializing stats... Done
+Initializing DB InMemory... 
+In-Memory DB configuration OK
+DB testing
+Insert key K1 with value V1
+Reading value for key K1 = V1
+Done
+Initializing transport manager... Tport Init 0: 17
+Reading ifconfig file: ./ifconfig.txt
+0: 10.0.0.198
+1: 10.0.0.199
+2: 10.0.0.200
+3: 10.0.0.201
+4: 10.0.0.203
+5: 10.0.0.204
+6: 10.0.0.205
+7: 10.0.0.202
+Port ID:  0, 1 -> 0 : 10001
+Sock Binding to tcp://10.0.0.198:10001 0
+server {1} Socket insert to 0  sock:140314333642752
+Port ID:  0, 0 -> 1 : 10008
+Sock Connecting to tcp://10.0.0.198;10.0.0.199:10008 0 -> 1
+Port ID:  0, 2 -> 0 : 10002
+Sock Binding to tcp://10.0.0.198:10002 0
+server {2} Socket insert to 0  sock:140314333643136
+Port ID:  0, 0 -> 2 : 10016
+Sock Connecting to tcp://10.0.0.198;10.0.0.200:10016 0 -> 2
+Port ID:  0, 3 -> 0 : 10003
+Sock Binding to tcp://10.0.0.198:10003 0
+server {3} Socket insert to 0  sock:140314333643520
+Port ID:  0, 0 -> 3 : 10024
+Sock Connecting to tcp://10.0.0.198;10.0.0.201:10024 0 -> 3
+Port ID:  0, 4 -> 0 : 10004
+Sock Binding to tcp://10.0.0.198:10004 0
+client {4} Socket insert to 0
+Port ID:  0, 0 -> 4 : 10032
+Sock Connecting to tcp://10.0.0.198;10.0.0.203:10032 0 -> 4
+Port ID:  0, 5 -> 0 : 10005
+Sock Binding to tcp://10.0.0.198:10005 0
+client {5} Socket insert to 0
+Port ID:  0, 0 -> 5 : 10040
+Sock Connecting to tcp://10.0.0.198;10.0.0.204:10040 0 -> 5
+Port ID:  0, 6 -> 0 : 10006
+Sock Binding to tcp://10.0.0.198:10006 0
+client {6} Socket insert to 0
+Port ID:  0, 0 -> 6 : 10048
+Sock Connecting to tcp://10.0.0.198;10.0.0.205:10048 0 -> 6
+Port ID:  0, 7 -> 0 : 10007
+Sock Binding to tcp://10.0.0.198:10007 0
+client {7} Socket insert to 0
+Port ID:  0, 0 -> 7 : 10056
+Sock Connecting to tcp://10.0.0.198;10.0.0.202:10056 0 -> 7
+Done
+Initializing simulation... Done
+Workload initialized!
+Initializing work queue... Done
+Initializing message queue... Done
+Initializing transaction manager pool... Done
+Initializing transaction pool... Done
+Initializing txn node table pool... Done
+Initializing query pool... Done
+Initializing transaction table... Done
+Initializing Chain... Done
+___________________________________ED25519GenerateKeys
+_____________ED25519 PUBLIC KEY: ’a–m :aÃÉa^˜Ë™£}EV•≤Åª©˜˜¿|+
+___________________________________CMACGenerateKeys
+_____________CMAC PRIV KEY: 1FD0BA58BA819B64167E1E4B007B77CF
+_____________CMAC PRIV KEY: 10ACA2C04C146E510A006DA46215335A
+_____________CMAC PRIV KEY: 9BD41941DD30480B694366348AE33DB8
+_____________CMAC PRIV KEY: 2B9931548C2D8FD43D8BD8EADF4B7C84
+_____________CMAC PRIV KEY: 2AC814E5D7B5FB3348D9BCADB801DF15
+_____________CMAC PRIV KEY: 4E98EF385697C17EA2CAC77DE36D3046
+_____________CMAC PRIV KEY: C36606D9DB69582043B756E8BC21659F
+Initialization Time = 19518742
+Setup 0:0
+Setup 0:1
+Setup 0:2
+Setup 0:3
+Setup 0:4
+Setup 0:5
+Setup 0:6
+Setup 0:7
+Running 0:1
+Running 0:4
+Running 0:2
+Running 0:3
+Received INIT_DONE from node 1
+Send INIT_DONE to 1
+Send INIT_DONE to 2
+Send INIT_DONE to 3
+Send INIT_DONE to 4
+Send INIT_DONE to 5
+Send INIT_DONE to 6
+Send INIT_DONE to 7
+Sending ED25519: ’a–m :aÃÉa^˜Ë™£}EV•≤Åª©˜˜¿|+
+Sending CMAC 1FD0BA58BA819B64167E1E4B007B77CF
+Sending ED25519: ’a–m :aÃÉa^˜Ë™£}EV•≤Åª©˜˜¿|+
+Sending CMAC 10ACA2C04C146E510A006DA46215335A
+Sending ED25519: ’a–m :aÃÉa^˜Ë™£}EV•≤Åª©˜˜¿|+
+Sending CMAC 9BD41941DD30480B694366348AE33DB8
+Sending ED25519: ’a–m :aÃÉa^˜Ë™£}EV•≤Åª©˜˜¿|+
+Sending CMAC 2B9931548C2D8FD43D8BD8EADF4B7C84
+Sending ED25519: ’a–m :aÃÉa^˜Ë™£}EV•≤Åª©˜˜¿|+
+Sending CMAC 2AC814E5D7B5FB3348D9BCADB801DF15
+Sending ED25519: ’a–m :aÃÉa^˜Ë™£}EV•≤Åª©˜˜¿|+
+Sending CMAC 4E98EF385697C17EA2CAC77DE36D3046
+Sending ED25519: ’a–m :aÃÉa^˜Ë™£}EV•≤Åª©˜˜¿|+
+Sending CMAC C36606D9DB69582043B756E8BC21659F
+Running 0:0
+Received INIT_DONE from node 2
+Received INIT_DONE from node 3
+Received INIT_DONE from node 4
+Received INIT_DONE from node 6
+Received INIT_DONE from node 5
+Received INIT_DONE from node 7
+Running 0:5
+Running 0:6
+Running 0:7
+Starttime set to 3072090715610
+Running WorkerThread 1
+Running WorkerThread 2
+Running OutputThread 7
+Running WorkerThread 4
+Running WorkerThread 3
+Running WorkerThread 0
+Running InputThread 5
+Running InputThread 6
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=0.000000
+
+tput=0.000000
+txn_cnt=0
+,work_queue_wait_time=0.000000
+,work_queue_cnt=0
+,work_queue_enq_cnt=0
+,work_queue_wait_avg_time=0.000000
+,work_queue_enqueue_time=0.000000
+,work_queue_dequeue_time=0.000000
+,worker_idle_time=0.000000
+,worker_release_msg_time=0.000000
+idle_time_worker 0=0.000000
+idle_time_worker 1=0.000000
+idle_time_worker 2=0.000000
+idle_time_worker 3=0.000000
+idle_time_worker 4=0.000000
+msg_send_time=0.000000
+msg_send_time_avg=0.000000
+msg_recv_time=0.000000
+msg_recv_time_avg=0.000000
+msg_recv_idle_time=0.000000
+msg_send_cnt=0
+msg_recv_cnt=0
+txn_table_new_cnt=0
+txn_table_get_cnt=0
+txn_table_release_cnt=0
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=0.000000
+txn_table_release_time=0.000000
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000000
+txn_table_release_avg_time=0.000000
+virt_mem_usage=2329208
+phys_mem_usage=46988
+,cpu_ttl=0.000040
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=0.000000
+--------------------------------
+interval_tput=0.000000	txn_cnt=0
+--------------------------------
+tput         =0.000000	txn_cnt=0
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=0.000000
+
+tput=0.000000
+txn_cnt=0
+,work_queue_wait_time=0.000000
+,work_queue_cnt=0
+,work_queue_enq_cnt=0
+,work_queue_wait_avg_time=0.000000
+,work_queue_enqueue_time=0.000000
+,work_queue_dequeue_time=0.000000
+,worker_idle_time=0.000000
+,worker_release_msg_time=0.000000
+idle_time_worker 0=0.000000
+idle_time_worker 1=0.000000
+idle_time_worker 2=0.000000
+idle_time_worker 3=0.000000
+idle_time_worker 4=0.000000
+msg_send_time=0.000000
+msg_send_time_avg=0.000000
+msg_recv_time=0.000000
+msg_recv_time_avg=0.000000
+msg_recv_idle_time=0.000000
+msg_send_cnt=0
+msg_recv_cnt=0
+txn_table_new_cnt=0
+txn_table_get_cnt=0
+txn_table_release_cnt=0
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=0.000000
+txn_table_release_time=0.000000
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000000
+txn_table_release_avg_time=0.000000
+virt_mem_usage=2329208
+phys_mem_usage=54996
+,cpu_ttl=103.510802
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=0.000000
+--------------------------------
+interval_tput=0.000000	txn_cnt=0
+--------------------------------
+tput         =0.000000	txn_cnt=0
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=0.000004
+
+tput=0.000000
+txn_cnt=0
+,work_queue_wait_time=0.000001
+,work_queue_cnt=1
+,work_queue_enq_cnt=1
+,work_queue_wait_avg_time=0.000001
+,work_queue_enqueue_time=0.000001
+,work_queue_dequeue_time=0.000001
+,worker_idle_time=0.000098
+,worker_release_msg_time=0.000000
+idle_time_worker 0=0.000000
+idle_time_worker 1=0.000098
+idle_time_worker 2=0.000000
+idle_time_worker 3=0.000000
+idle_time_worker 4=0.000000
+msg_send_time=0.000000
+msg_send_time_avg=0.000000
+msg_recv_time=0.000002
+msg_recv_time_avg=0.000002
+msg_recv_idle_time=0.000003
+msg_send_cnt=0
+msg_recv_cnt=1
+txn_table_new_cnt=3
+txn_table_get_cnt=3
+txn_table_release_cnt=4
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=0.000005
+txn_table_release_time=0.000007
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000002
+txn_table_release_avg_time=0.000002
+virt_mem_usage=2355320
+phys_mem_usage=73200
+,cpu_ttl=103.279321
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=0.000004
+--------------------------------
+interval_tput=0.000000	txn_cnt=0
+--------------------------------
+tput         =0.000000	txn_cnt=0
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=5.000004
+
+tput=390339.721219
+txn_cnt=1951700
+,work_queue_wait_time=20.513530
+,work_queue_cnt=107341
+,work_queue_enq_cnt=107343
+,work_queue_wait_avg_time=0.000191
+,work_queue_enqueue_time=0.047274
+,work_queue_dequeue_time=0.038003
+,worker_idle_time=14.242187
+,worker_release_msg_time=0.219834
+idle_time_worker 0=4.732317
+idle_time_worker 1=2.054240
+idle_time_worker 2=2.200181
+idle_time_worker 3=2.300152
+idle_time_worker 4=2.955296
+msg_send_time=0.077267
+msg_send_time_avg=0.000007
+msg_recv_time=0.149167
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=4.717416
+msg_send_cnt=11006
+msg_recv_cnt=30563
+txn_table_new_cnt=1951896
+txn_table_get_cnt=3959695
+txn_table_release_cnt=1951159
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=2.205079
+txn_table_release_time=2.624243
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2357880
+phys_mem_usage=82208
+,cpu_ttl=94.309414
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=5.000004
+--------------------------------
+interval_tput=390340.000000	txn_cnt=1951700
+--------------------------------
+tput         =390339.721219	txn_cnt=1951700
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=10.000004
+
+tput=395439.857642
+txn_cnt=3954400
+,work_queue_wait_time=39.771046
+,work_queue_cnt=217499
+,work_queue_enq_cnt=217499
+,work_queue_wait_avg_time=0.000183
+,work_queue_enqueue_time=0.095873
+,work_queue_dequeue_time=0.076819
+,worker_idle_time=28.265325
+,worker_release_msg_time=0.446150
+idle_time_worker 0=9.451329
+idle_time_worker 1=4.086325
+idle_time_worker 2=4.267781
+idle_time_worker 3=4.623890
+idle_time_worker 4=5.836001
+msg_send_time=0.156214
+msg_send_time_avg=0.000007
+msg_recv_time=0.294762
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=9.427246
+msg_send_cnt=22258
+msg_recv_cnt=61084
+txn_table_new_cnt=3955044
+txn_table_get_cnt=8022560
+txn_table_release_cnt=3954461
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=4.452629
+txn_table_release_time=5.226932
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2357880
+phys_mem_usage=90456
+,cpu_ttl=94.367284
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=10.000004
+--------------------------------
+interval_tput=400540.000000	txn_cnt=2002700
+--------------------------------
+tput         =395439.857642	txn_cnt=3954400
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=15.000004
+
+tput=396239.904084
+txn_cnt=5943600
+,work_queue_wait_time=60.558581
+,work_queue_cnt=326918
+,work_queue_enq_cnt=326918
+,work_queue_wait_avg_time=0.000185
+,work_queue_enqueue_time=0.144183
+,work_queue_dequeue_time=0.115401
+,worker_idle_time=42.247629
+,worker_release_msg_time=0.670223
+idle_time_worker 0=14.170902
+idle_time_worker 1=6.119563
+idle_time_worker 2=6.358609
+idle_time_worker 3=6.917577
+idle_time_worker 4=8.680977
+msg_send_time=0.234706
+msg_send_time_avg=0.000007
+msg_recv_time=0.437608
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=14.140315
+msg_send_cnt=33441
+msg_recv_cnt=91373
+txn_table_new_cnt=5945027
+txn_table_get_cnt=12059043
+txn_table_release_cnt=5944061
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=6.708001
+txn_table_release_time=7.857250
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2361464
+phys_mem_usage=98416
+,cpu_ttl=94.144838
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=15.000004
+--------------------------------
+interval_tput=397840.000000	txn_cnt=1989200
+--------------------------------
+tput         =396239.904084	txn_cnt=5943600
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=20.000004
+
+tput=395334.926369
+txn_cnt=7906700
+,work_queue_wait_time=82.622628
+,work_queue_cnt=434860
+,work_queue_enq_cnt=434866
+,work_queue_wait_avg_time=0.000190
+,work_queue_enqueue_time=0.191075
+,work_queue_dequeue_time=0.153590
+,worker_idle_time=56.423286
+,worker_release_msg_time=0.888743
+idle_time_worker 0=18.901123
+idle_time_worker 1=8.213255
+idle_time_worker 2=8.559380
+idle_time_worker 3=9.173765
+idle_time_worker 4=11.575762
+msg_send_time=0.312645
+msg_send_time_avg=0.000007
+msg_recv_time=0.579869
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=18.855019
+msg_send_cnt=44504
+msg_recv_cnt=121275
+txn_table_new_cnt=7908919
+txn_table_get_cnt=16042123
+txn_table_release_cnt=7903483
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=8.898777
+txn_table_release_time=10.526545
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2366584
+phys_mem_usage=106168
+,cpu_ttl=94.251543
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=20.000004
+--------------------------------
+interval_tput=392620.000000	txn_cnt=1963100
+--------------------------------
+tput         =395334.926369	txn_cnt=7906700
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=25.000004
+
+tput=394957.901120
+txn_cnt=9873949
+,work_queue_wait_time=102.797691
+,work_queue_cnt=543119
+,work_queue_enq_cnt=543135
+,work_queue_wait_avg_time=0.000189
+,work_queue_enqueue_time=0.238707
+,work_queue_dequeue_time=0.191596
+,worker_idle_time=70.516402
+,worker_release_msg_time=1.112036
+idle_time_worker 0=23.630079
+idle_time_worker 1=10.221083
+idle_time_worker 2=10.639736
+idle_time_worker 3=11.454583
+idle_time_worker 4=14.570920
+msg_send_time=0.391558
+msg_send_time_avg=0.000007
+msg_recv_time=0.722584
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=23.569470
+msg_send_cnt=55586
+msg_recv_cnt=151247
+txn_table_new_cnt=9876227
+txn_table_get_cnt=20032580
+txn_table_release_cnt=9872325
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=11.164886
+txn_table_release_time=13.170878
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2374776
+phys_mem_usage=114244
+,cpu_ttl=94.251543
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=25.000004
+--------------------------------
+interval_tput=393449.000000	txn_cnt=1967249
+--------------------------------
+tput         =394957.901120	txn_cnt=9873949
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=30.000004
+
+tput=394091.283008
+txn_cnt=11822740
+,work_queue_wait_time=121.625275
+,work_queue_cnt=650300
+,work_queue_enq_cnt=650307
+,work_queue_wait_avg_time=0.000187
+,work_queue_enqueue_time=0.285436
+,work_queue_dequeue_time=0.229104
+,worker_idle_time=84.871077
+,worker_release_msg_time=1.329631
+idle_time_worker 0=28.358176
+idle_time_worker 1=12.362989
+idle_time_worker 2=12.758491
+idle_time_worker 3=13.859937
+idle_time_worker 4=17.531484
+msg_send_time=0.468165
+msg_send_time_avg=0.000007
+msg_recv_time=0.864471
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=28.285236
+msg_send_cnt=66583
+msg_recv_cnt=180964
+txn_table_new_cnt=11825406
+txn_table_get_cnt=23986562
+txn_table_release_cnt=11821661
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=13.365197
+txn_table_release_time=15.693072
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2374776
+phys_mem_usage=121608
+,cpu_ttl=94.212963
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=30.000004
+--------------------------------
+interval_tput=389748.000000	txn_cnt=1948741
+--------------------------------
+tput         =394091.283008	txn_cnt=11822740
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=35.000004
+
+tput=393808.527671
+txn_cnt=13783300
+,work_queue_wait_time=141.182629
+,work_queue_cnt=758099
+,work_queue_enq_cnt=758099
+,work_queue_wait_avg_time=0.000186
+,work_queue_enqueue_time=0.332504
+,work_queue_dequeue_time=0.267217
+,worker_idle_time=99.084091
+,worker_release_msg_time=1.550839
+idle_time_worker 0=33.078881
+idle_time_worker 1=14.430906
+idle_time_worker 2=14.882932
+idle_time_worker 3=16.208895
+idle_time_worker 4=20.482476
+msg_send_time=0.546510
+msg_send_time_avg=0.000007
+msg_recv_time=1.006141
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=33.004875
+msg_send_cnt=77643
+msg_recv_cnt=210844
+txn_table_new_cnt=13784827
+txn_table_get_cnt=27962690
+txn_table_release_cnt=13783661
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=15.590081
+txn_table_release_time=18.267547
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2378872
+phys_mem_usage=130048
+,cpu_ttl=94.174383
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=35.000004
+--------------------------------
+interval_tput=392096.000000	txn_cnt=1960481
+--------------------------------
+tput         =393808.527671	txn_cnt=13783300
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=40.000004
+
+tput=394033.960666
+txn_cnt=15761360
+,work_queue_wait_time=162.448467
+,work_queue_cnt=866867
+,work_queue_enq_cnt=866881
+,work_queue_wait_avg_time=0.000187
+,work_queue_enqueue_time=0.380183
+,work_queue_dequeue_time=0.305400
+,worker_idle_time=112.905033
+,worker_release_msg_time=1.777472
+idle_time_worker 0=37.808616
+idle_time_worker 1=16.356493
+idle_time_worker 2=16.964147
+idle_time_worker 3=18.440274
+idle_time_worker 4=23.335503
+msg_send_time=0.624651
+msg_send_time_avg=0.000007
+msg_recv_time=1.147469
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=37.726970
+msg_send_cnt=88726
+msg_recv_cnt=240923
+txn_table_new_cnt=15762827
+txn_table_get_cnt=31974451
+txn_table_release_cnt=15758134
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=17.965578
+txn_table_release_time=20.962351
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2378872
+phys_mem_usage=137928
+,cpu_ttl=94.183359
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=40.000004
+--------------------------------
+interval_tput=395612.000000	txn_cnt=1978060
+--------------------------------
+tput         =394033.960666	txn_cnt=15761360
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=45.000004
+
+tput=393465.431622
+txn_cnt=17705946
+,work_queue_wait_time=182.388014
+,work_queue_cnt=973825
+,work_queue_enq_cnt=973830
+,work_queue_wait_avg_time=0.000187
+,work_queue_enqueue_time=0.427386
+,work_queue_dequeue_time=0.342837
+,worker_idle_time=126.951148
+,worker_release_msg_time=2.001111
+idle_time_worker 0=42.548543
+idle_time_worker 1=18.364466
+idle_time_worker 2=19.062317
+idle_time_worker 3=20.664102
+idle_time_worker 4=26.311720
+msg_send_time=0.700470
+msg_send_time_avg=0.000007
+msg_recv_time=1.287251
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=42.441740
+msg_send_cnt=99643
+msg_recv_cnt=270546
+txn_table_new_cnt=17706908
+txn_table_get_cnt=35917932
+txn_table_release_cnt=17704661
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=20.307381
+txn_table_release_time=23.662107
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2378872
+phys_mem_usage=145832
+,cpu_ttl=94.212963
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=45.000004
+--------------------------------
+interval_tput=388909.000000	txn_cnt=1944545
+--------------------------------
+tput         =393465.431622	txn_cnt=17705946
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=50.000004
+
+tput=393731.968179
+txn_cnt=19686600
+,work_queue_wait_time=202.573744
+,work_queue_cnt=1082783
+,work_queue_enq_cnt=1082785
+,work_queue_wait_avg_time=0.000187
+,work_queue_enqueue_time=0.475891
+,work_queue_dequeue_time=0.380889
+,worker_idle_time=140.692684
+,worker_release_msg_time=2.229702
+idle_time_worker 0=47.281933
+idle_time_worker 1=20.292961
+idle_time_worker 2=21.023290
+idle_time_worker 3=22.914225
+idle_time_worker 4=29.180274
+msg_send_time=0.777652
+msg_send_time_avg=0.000007
+msg_recv_time=1.430322
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=47.159143
+msg_send_cnt=110722
+msg_recv_cnt=300676
+txn_table_new_cnt=19687931
+txn_table_get_cnt=39935285
+txn_table_release_cnt=19686968
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=22.744660
+txn_table_release_time=26.338527
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2394744
+phys_mem_usage=154728
+,cpu_ttl=94.347994
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=50.000004
+--------------------------------
+interval_tput=396120.000000	txn_cnt=1980600
+--------------------------------
+tput         =393731.968179	txn_cnt=19686600
+=======================================================
+
+[prog] 
+filename: ./monitor/toInflux_R1_.out
+total_runtime=55.000004
+
+tput=393807.661946
+txn_cnt=21659423
+,work_queue_wait_time=223.500014
+,work_queue_cnt=1191283
+,work_queue_enq_cnt=1191284
+,work_queue_wait_avg_time=0.000188
+,work_queue_enqueue_time=0.523120
+,work_queue_dequeue_time=0.418868
+,worker_idle_time=154.727181
+,worker_release_msg_time=2.451622
+idle_time_worker 0=52.010514
+idle_time_worker 1=22.336978
+idle_time_worker 2=23.156318
+idle_time_worker 3=25.122643
+idle_time_worker 4=32.100728
+msg_send_time=0.855872
+msg_send_time_avg=0.000007
+msg_recv_time=1.572444
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=51.874112
+msg_send_cnt=121823
+msg_recv_cnt=330716
+txn_table_new_cnt=21660220
+txn_table_get_cnt=43936586
+txn_table_release_cnt=21659269
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=24.986848
+txn_table_release_time=29.053134
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2399864
+phys_mem_usage=161344
+,cpu_ttl=94.232253
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=55.000004
+--------------------------------
+interval_tput=394564.000000	txn_cnt=1972823
+--------------------------------
+tput         =393807.661946	txn_cnt=21659423
+=======================================================
+
+FINISH: 0
+FINISH: 0
+FINISH: 0
+FINISH: 0
+FINISH: 0
+PASS! SimTime = 75.524872
+Output 7: 64.946156
+Input 5: 15.030123
+Input 6: 73.785667
+[summary] filename: ./monitor/toInflux_R1_.out
+total_runtime=60.000000
+
+tput=391523.333425
+txn_cnt=23491400
+,work_queue_wait_time=242.321199
+,work_queue_cnt=1292268
+,work_queue_enq_cnt=1292268
+,work_queue_wait_avg_time=0.000188
+,work_queue_enqueue_time=0.567579
+,work_queue_dequeue_time=0.454332
+,worker_idle_time=167.481714
+,worker_release_msg_time=2.663046
+idle_time_worker 0=56.323332
+idle_time_worker 1=24.208671
+idle_time_worker 2=24.993942
+idle_time_worker 3=27.198788
+idle_time_worker 4=34.756981
+msg_send_time=1.355102
+msg_send_time_avg=0.000010
+msg_recv_time=1.707442
+msg_recv_time_avg=0.000005
+msg_recv_idle_time=56.974190
+msg_send_cnt=132103
+msg_recv_cnt=358837
+txn_table_new_cnt=23516027
+txn_table_get_cnt=47676239
+txn_table_release_cnt=23491661
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=27.105654
+txn_table_release_time=31.476789
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000001
+txn_table_release_avg_time=0.000001
+virt_mem_usage=2385512
+phys_mem_usage=191432
+,cpu_ttl=94.791667
+msg_size_client_batch=4604
+msg_size_batch_req=0
+msg_size_commit=0
+msg_size_prepare=216
+msg_size_checkpoint=164
+msg_size_client_response=0
+total_runtime=60.000000
+--------------------------------
+interval_tput=366381.000000	txn_cnt=1831908
+--------------------------------
+tput         =391523.333425	txn_cnt=23491400
+=======================================================
+
+

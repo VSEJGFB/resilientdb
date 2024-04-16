@@ -1,0 +1,795 @@
+Running client...
+
+g_done_timer 60000000000
+g_thread_cnt 5
+g_zipf_theta 0.500000
+g_node_id 4
+g_client_rem_thread_cnt 1
+g_client_send_thread_cnt 1
+g_max_txn_per_part 4000
+g_load_per_server 1
+g_inflight_max 7000
+g_mpr 1.000000
+g_mpitem 0.010000
+g_part_per_txn 1
+g_req_per_query 1
+g_client_node_cnt 6
+g_rem_thread_cnt 2
+g_send_thread_cnt 1
+g_client_thread_cnt 1
+g_part_cnt 1
+g_node_cnt 4
+g_thread_cnt 5
+g_query_intvl 1
+g_prt_lat_distr 0
+g_part_alloc 0
+g_mem_pad 1
+g_perc_multi_part 1.000000
+g_tup_read_perc 0.500000
+g_tup_write_perc 0.500000
+g_txn_read_perc 0.500000
+g_txn_write_perc 0.500000
+g_synth_table_size 524288
+g_field_per_tuple 10
+g_data_perc 100.000000
+g_access_perc 0.030000
+g_strict_ppt 1
+g_network_delay 0
+g_total_thread_cnt 8
+g_total_client_thread_cnt 3
+g_total_node_cnt 10
+g_seq_batch_time_limit 5000000
+Node 4: servicing 4 total nodes starting with node 0
+Random seed: 4406633989777
+CPU clock is:  3.500000
+Initializing stats... Done
+Initializing transport manager... Tport Init 4: 24
+Reading ifconfig file: ./ifconfig.txt
+0: 10.0.0.198
+1: 10.0.0.199
+2: 10.0.0.200
+3: 10.0.0.201
+4: 10.0.0.203
+5: 10.0.0.203
+6: 10.0.0.204
+7: 10.0.0.204
+8: 10.0.0.205
+9: 10.0.0.205
+Port ID:  0, 0 -> 4 : 10040
+Sock Binding to tcp://10.0.0.203:10040 4
+server {0} Socket insert to 0  sock:140390275710976
+Port ID:  0, 4 -> 0 : 10004
+Sock Connecting to tcp://10.0.0.203;10.0.0.198:10004 4 -> 0
+Port ID:  0, 1 -> 4 : 10041
+Sock Binding to tcp://10.0.0.203:10041 4
+server {1} Socket insert to 0  sock:140390275711360
+Port ID:  0, 4 -> 1 : 10014
+Sock Connecting to tcp://10.0.0.203;10.0.0.199:10014 4 -> 1
+Port ID:  0, 2 -> 4 : 10042
+Sock Binding to tcp://10.0.0.203:10042 4
+server {2} Socket insert to 0  sock:140390275711744
+Port ID:  0, 4 -> 2 : 10024
+Sock Connecting to tcp://10.0.0.203;10.0.0.200:10024 4 -> 2
+Port ID:  0, 3 -> 4 : 10043
+Sock Binding to tcp://10.0.0.203:10043 4
+server {3} Socket insert to 0  sock:140390275712128
+Port ID:  0, 4 -> 3 : 10034
+Sock Connecting to tcp://10.0.0.203;10.0.0.201:10034 4 -> 3
+Port ID:  0, 5 -> 4 : 10045
+Sock Binding to tcp://10.0.0.203:10045 4
+client {5} Socket insert to 0
+Port ID:  0, 4 -> 5 : 10054
+Sock Connecting to tcp://10.0.0.203;10.0.0.203:10054 4 -> 5
+Port ID:  0, 6 -> 4 : 10046
+Sock Binding to tcp://10.0.0.203:10046 4
+client {6} Socket insert to 0
+Port ID:  0, 4 -> 6 : 10064
+Sock Connecting to tcp://10.0.0.203;10.0.0.204:10064 4 -> 6
+Port ID:  0, 7 -> 4 : 10047
+Sock Binding to tcp://10.0.0.203:10047 4
+client {7} Socket insert to 0
+Port ID:  0, 4 -> 7 : 10074
+Sock Connecting to tcp://10.0.0.203;10.0.0.204:10074 4 -> 7
+Port ID:  0, 8 -> 4 : 10048
+Sock Binding to tcp://10.0.0.203:10048 4
+client {8} Socket insert to 0
+Port ID:  0, 4 -> 8 : 10084
+Sock Connecting to tcp://10.0.0.203;10.0.0.205:10084 4 -> 8
+Port ID:  0, 9 -> 4 : 10049
+Sock Binding to tcp://10.0.0.203:10049 4
+client {9} Socket insert to 0
+Port ID:  0, 4 -> 9 : 10094
+Sock Connecting to tcp://10.0.0.203;10.0.0.205:10094 4 -> 9
+Done
+Initializing client manager... workload initialized!
+Initializing simulation... Done
+Done
+Initializing work queue... Done
+Reading in Keys___________________________________ED25519GenerateKeys
+_____________ED25519 PUBLIC KEY IS: ž6A.ÌP§gt÷¶v$¹v{œÚ‡bWê”¶è²
+___________________________________CMACGenerateKeys
+_____________CMAC PRIV KEY: 21CE9893FA1372799D7BBFE958CB883E
+_____________CMAC PRIV KEY: 02B13A5A8770D3849C8B180BA8DF59BE
+_____________CMAC PRIV KEY: 6D72CC57C5AF1F2BC6D77D14AC2E5702
+_____________CMAC PRIV KEY: 9DB3CC1D82E645B4CC349E981C89C5D7
+_____________CMAC PRIV KEY: 40F14F9B51F841140DA3619C2EE16436
+_____________CMAC PRIV KEY: 7EE83F38F7C7228AAF5E201861B8DA16
+_____________CMAC PRIV KEY: F6D9220FB52D079FCDE3632C25ECB1B9
+_____________CMAC PRIV KEY: C6371032DDDA261C9B1A7C4DBA836130
+_____________CMAC PRIV KEY: 34177C5A729DD849C606D5FF97157775
+Done
+Initializing message queue... Done
+Initializing client query queue... Done
+Initialization Time = 92175844
+Setup 4:2
+Setup 4:1
+Setup 4:0
+Send INIT_DONE to 0
+Send INIT_DONE to 1
+Send INIT_DONE to 2
+Send INIT_DONE to 3
+Send INIT_DONE to 5
+Send INIT_DONE to 6
+Send INIT_DONE to 7
+Send INIT_DONE to 8
+Send INIT_DONE to 9
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Sending the key ED25519: 32
+Sending the key CMAC: 32
+Running 4:0
+Received INIT_DONE from node 8
+Received INIT_DONE from node 5
+Received INIT_DONE from node 9
+Received INIT_DONE from node 6
+Received INIT_DONE from node 7
+Algo: ED2- :: 7
+Storing the key: "º»³G®ÙR7û<cÅdC{\ÒõÊh'Ó¦9kVî ::size: 32
+Algo: CMA- :: 7
+Storing the key: 76A7AE037684F7C987C6BC6375D68D4C ::size: 32
+Algo: ED2- :: 6
+Storing the key: Ð_ÈÑÆÚrç†nx49O\Ò%²CƒÁ–75N­¼¢ ::size: 32
+Algo: CMA- :: 6
+Storing the key: CCD51A6B0D02B5C264EB5A8E3292599E ::size: 32
+Received INIT_DONE from node 2
+Received INIT_DONE from node 1
+Algo: ED2- :: 1
+Storing the key: ¿Ù²jU…f¼³[yÊì™)ÛÞ”UòÙv-bºm ::size: 32
+Algo: CMA- :: 1
+Storing the key: 14FEADCC9193730941F8E64802BC58BB ::size: 32
+Received INIT_DONE from node 0
+Algo: ED2- :: 0
+Storing the key: ÒÚQÔB:$Í¿žÖõù	?Éaz}¶}Ž®`=;?ë½± ::size: 32
+Algo: CMA- :: 0
+Storing the key: 10F55F7838C18446446E8D659C9EE472 ::size: 32
+Algo: ED2- :: 2
+Storing the key: ûü[þÙª­ŸD^/°Hye'lœ@)¥PÂ]†YRut ::size: 32
+Algo: CMA- :: 2
+Storing the key: 05D143637630B42C7CCF74848A9D4F1D ::size: 32
+Algo: ED2- :: 8
+Storing the key: €oß
+ÐBÐåÅ2Ó©¨û»§&e5ÀQ¸%ÚE ::size: 32
+Algo: CMA- :: 8
+Storing the key: 5DAC66A6B3EBD0658AD03B0FE46B7A9E ::size: 32
+Algo: ED2- :: 9
+Storing the key: ¿SåUº8ÎÎéú»”ðM/§gšÑûÿ_0ß±ÀV ::size: 32
+Algo: CMA- :: 9
+Storing the key: 95077F78B541C5A309E1A6CC1F958396 ::size: 32
+Algo: ED2- :: 5
+Storing the key: †ð(ëÓøÉXN2äãFN	Á¯¹p¿æ©I¥5 ::size: 32
+Algo: CMA- :: 5
+Storing the key: B6FC76C96C20764ABFC381CF20AF0F86 ::size: 32
+Received INIT_DONE from node 3
+Running 4:1
+Running 4:2
+Starttime set to 2770646724140
+Running ClientThread 0
+Running InputThread 1
+Algo: ED2- :: 3
+Storing the key: Ô]ÆFˆƒ2?ýìæü±"ÜŒ˜0iP³¨‹¾)kº ::size: 32
+Algo: CMA- :: 3
+Storing the key: 9A77D0B335BA755B77B76C22D2EC9E40 ::size: 32
+Running OutputThread 2
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=0.000000
+tput=0.000000
+txn_cnt=0
+txn_sent_cnt=0
+txn_run_time=0.000000
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.000000
+cl_send_intv=0.000000
+msg_queue_delay_time=0.000000
+msg_queue_cnt=0
+msg_queue_enq_cnt=0
+msg_queue_delay_time_avg=0.000000
+msg_send_time=0.000000
+msg_send_time_avg=0.000000
+msg_recv_time=0.000000
+msg_recv_time_avg=0.000000
+msg_recv_idle_time=0.000000
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=0
+msg_recv_cnt=0
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1365796
+phys_mem_usage=27072
+,cpu_ttl=0.000008
+total_runtime=0.000000
+tput=0.000000	txn_cnt=0
+Latency=-nan
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=0.000000
+tput=0.000000
+txn_cnt=0
+txn_sent_cnt=0
+txn_run_time=0.000000
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.000000
+cl_send_intv=0.000000
+msg_queue_delay_time=0.000000
+msg_queue_cnt=0
+msg_queue_enq_cnt=0
+msg_queue_delay_time_avg=0.000000
+msg_send_time=0.000000
+msg_send_time_avg=0.000000
+msg_recv_time=0.000000
+msg_recv_time_avg=0.000000
+msg_recv_idle_time=0.000000
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=0
+msg_recv_cnt=0
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1365796
+phys_mem_usage=27412
+,cpu_ttl=19.230769
+total_runtime=0.000000
+tput=0.000000	txn_cnt=0
+Latency=-nan
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=0.032242
+tput=52726.030367
+txn_cnt=1700
+txn_sent_cnt=3300
+txn_run_time=149.085335
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.087697
+cl_send_intv=0.054670
+msg_queue_delay_time=0.049544
+msg_queue_cnt=20
+msg_queue_enq_cnt=33
+msg_queue_delay_time_avg=0.002477
+msg_send_time=0.000086
+msg_send_time_avg=0.000004
+msg_recv_time=0.006161
+msg_recv_time_avg=0.002054
+msg_recv_idle_time=0.024305
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=20
+msg_recv_cnt=3
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1365796
+phys_mem_usage=28472
+,cpu_ttl=19.238683
+total_runtime=0.032242
+tput=52726.030367	txn_cnt=1700
+Latency=0.087697
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=5.041922
+tput=64895.881919
+txn_cnt=327200
+txn_sent_cnt=327300
+txn_run_time=31443.430761
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.096099
+cl_send_intv=5.035841
+msg_queue_delay_time=42.149451
+msg_queue_cnt=3273
+msg_queue_enq_cnt=3273
+msg_queue_delay_time_avg=0.012878
+msg_send_time=0.286561
+msg_send_time_avg=0.000088
+msg_recv_time=1.666828
+msg_recv_time_avg=0.003053
+msg_recv_idle_time=2.365534
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=3273
+msg_recv_cnt=546
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1365796
+phys_mem_usage=28696
+,cpu_ttl=17.025641
+total_runtime=5.041922
+tput=64895.881919	txn_cnt=327200
+Latency=0.096099
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=10.062245
+tput=65194.201276
+txn_cnt=656000
+txn_sent_cnt=654800
+txn_run_time=63075.642935
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.096152
+cl_send_intv=10.035276
+msg_queue_delay_time=80.853580
+msg_queue_cnt=6548
+msg_queue_enq_cnt=6548
+msg_queue_delay_time_avg=0.012348
+msg_send_time=0.617100
+msg_send_time_avg=0.000094
+msg_recv_time=3.822134
+msg_recv_time_avg=0.003494
+msg_recv_idle_time=4.486218
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=6548
+msg_recv_cnt=1094
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1365796
+phys_mem_usage=29252
+,cpu_ttl=16.948285
+total_runtime=10.062245
+tput=65194.201276	txn_cnt=656000
+Latency=0.096152
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=15.067135
+tput=65739.107400
+txn_cnt=990500
+txn_sent_cnt=990800
+txn_run_time=94444.196964
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.095350
+cl_send_intv=15.044023
+msg_queue_delay_time=117.200461
+msg_queue_cnt=9908
+msg_queue_enq_cnt=9908
+msg_queue_delay_time_avg=0.011829
+msg_send_time=0.959081
+msg_send_time_avg=0.000097
+msg_recv_time=5.840568
+msg_recv_time_avg=0.003538
+msg_recv_idle_time=6.762672
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=9908
+msg_recv_cnt=1651
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1368868
+phys_mem_usage=29956
+,cpu_ttl=17.051875
+total_runtime=15.067135
+tput=65739.107400	txn_cnt=990500
+Latency=0.095350
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=20.068974
+tput=65857.876472
+txn_cnt=1321700
+txn_sent_cnt=1323300
+txn_run_time=125772.474590
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.095160
+cl_send_intv=20.045158
+msg_queue_delay_time=155.682920
+msg_queue_cnt=13233
+msg_queue_enq_cnt=13233
+msg_queue_delay_time_avg=0.011765
+msg_send_time=1.266132
+msg_send_time_avg=0.000096
+msg_recv_time=7.873709
+msg_recv_time_avg=0.003572
+msg_recv_idle_time=8.884658
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=13233
+msg_recv_cnt=2204
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1368868
+phys_mem_usage=30232
+,cpu_ttl=16.975309
+total_runtime=20.068974
+tput=65857.876472	txn_cnt=1321700
+Latency=0.095160
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=25.089267
+tput=66004.320314
+txn_cnt=1656000
+txn_sent_cnt=1655100
+txn_run_time=157551.103399
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.095140
+cl_send_intv=25.077298
+msg_queue_delay_time=196.616669
+msg_queue_cnt=16551
+msg_queue_enq_cnt=16551
+msg_queue_delay_time_avg=0.011879
+msg_send_time=1.543399
+msg_send_time_avg=0.000093
+msg_recv_time=9.767976
+msg_recv_time_avg=0.003539
+msg_recv_idle_time=11.113090
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=16551
+msg_recv_cnt=2760
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1368868
+phys_mem_usage=30944
+,cpu_ttl=17.050691
+total_runtime=25.089267
+tput=66004.320314	txn_cnt=1656000
+Latency=0.095140
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=30.094156
+tput=66059.337050
+txn_cnt=1988000
+txn_sent_cnt=1989200
+txn_run_time=188782.097964
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.094961
+cl_send_intv=30.052187
+msg_queue_delay_time=238.183026
+msg_queue_cnt=19892
+msg_queue_enq_cnt=19892
+msg_queue_delay_time_avg=0.011974
+msg_send_time=1.784518
+msg_send_time_avg=0.000090
+msg_recv_time=11.575780
+msg_recv_time_avg=0.003493
+msg_recv_idle_time=13.326413
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=19892
+msg_recv_cnt=3314
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1368868
+phys_mem_usage=31376
+,cpu_ttl=17.000514
+total_runtime=30.094156
+tput=66059.337050	txn_cnt=1988000
+Latency=0.094961
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=35.094156
+tput=66210.453533
+txn_cnt=2323600
+txn_sent_cnt=2324400
+txn_run_time=220316.343096
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.094817
+cl_send_intv=35.065888
+msg_queue_delay_time=277.599235
+msg_queue_cnt=23228
+msg_queue_enq_cnt=23244
+msg_queue_delay_time_avg=0.011951
+msg_send_time=2.015535
+msg_send_time_avg=0.000087
+msg_recv_time=13.269844
+msg_recv_time_avg=0.003426
+msg_recv_idle_time=15.640868
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=23228
+msg_recv_cnt=3873
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1368868
+phys_mem_usage=31736
+,cpu_ttl=17.026749
+total_runtime=35.094156
+tput=66210.453533	txn_cnt=2323600
+Latency=0.094817
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=40.110114
+tput=66307.464993
+txn_cnt=2659600
+txn_sent_cnt=2659200
+txn_run_time=251673.091556
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.094628
+cl_send_intv=40.068808
+msg_queue_delay_time=319.054026
+msg_queue_cnt=26592
+msg_queue_enq_cnt=26592
+msg_queue_delay_time_avg=0.011998
+msg_send_time=2.319089
+msg_send_time_avg=0.000087
+msg_recv_time=15.297181
+msg_recv_time_avg=0.003451
+msg_recv_idle_time=17.817985
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=26592
+msg_recv_cnt=4433
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1372452
+phys_mem_usage=32368
+,cpu_ttl=17.025641
+total_runtime=40.110114
+tput=66307.464993	txn_cnt=2659600
+Latency=0.094628
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=45.110163
+tput=66299.914915
+txn_cnt=2990800
+txn_sent_cnt=2992100
+txn_run_time=282988.251967
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.094620
+cl_send_intv=45.065837
+msg_queue_delay_time=356.950989
+msg_queue_cnt=29904
+msg_queue_enq_cnt=29921
+msg_queue_delay_time_avg=0.011937
+msg_send_time=2.575886
+msg_send_time_avg=0.000086
+msg_recv_time=17.245027
+msg_recv_time_avg=0.003459
+msg_recv_idle_time=19.929356
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=29904
+msg_recv_cnt=4985
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1372452
+phys_mem_usage=32612
+,cpu_ttl=17.026749
+total_runtime=45.110163
+tput=66299.914915	txn_cnt=2990800
+Latency=0.094620
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=50.113728
+tput=66337.112425
+txn_cnt=3324400
+txn_sent_cnt=3323600
+txn_run_time=314446.652812
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.094587
+cl_send_intv=50.013795
+msg_queue_delay_time=396.061750
+msg_queue_cnt=33236
+msg_queue_enq_cnt=33236
+msg_queue_delay_time_avg=0.011917
+msg_send_time=2.850530
+msg_send_time_avg=0.000086
+msg_recv_time=19.062213
+msg_recv_time_avg=0.003440
+msg_recv_idle_time=22.102707
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=33236
+msg_recv_cnt=5541
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1372452
+phys_mem_usage=33152
+,cpu_ttl=17.000514
+total_runtime=50.113728
+tput=66337.112425	txn_cnt=3324400
+Latency=0.094587
+CLatency=-nan
+[prog] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=55.118635
+tput=66322.396996
+txn_cnt=3655600
+txn_sent_cnt=3656100
+txn_run_time=345913.839056
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.094626
+cl_send_intv=55.057117
+msg_queue_delay_time=437.395849
+msg_queue_cnt=36549
+msg_queue_enq_cnt=36561
+msg_queue_delay_time_avg=0.011967
+msg_send_time=3.231783
+msg_send_time_avg=0.000088
+msg_recv_time=20.923462
+msg_recv_time_avg=0.003434
+msg_recv_idle_time=24.501789
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=36548
+msg_recv_cnt=6093
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1372452
+phys_mem_usage=33836
+,cpu_ttl=17.000514
+total_runtime=55.118635
+tput=66322.396996	txn_cnt=3655600
+Latency=0.094626
+CLatency=-nan
+AVG Latency: 0.094651
+TXN_CNT: 3965600
+FINISH 4:0
+CLIENT PASS! SimTime = 75672490513
+[summary] filename: ./monitor/toInflux_C1_.out
+
+total_runtime=60.000089
+tput=66093.235306
+txn_cnt=3965600
+txn_sent_cnt=3967200
+txn_run_time=375347.904811
+cross_txn_run_time=0.000000
+txn_run_avg_time=0.094651
+cl_send_intv=59.771690
+msg_queue_delay_time=479.953298
+msg_queue_cnt=39649
+msg_queue_enq_cnt=39672
+msg_queue_delay_time_avg=0.012105
+msg_send_time=3.817016
+msg_send_time_avg=0.000096
+msg_recv_time=22.815958
+msg_recv_time_avg=0.003452
+msg_recv_idle_time=26.651061
+msg_batch_cnt=0
+msg_batch_size_msgs=0
+msg_batch_size_msgs_avg=0.000000
+msg_batch_size_bytes=0
+msg_batch_size_bytes_avg=0.000000
+msg_batch_size_bytes_to_server=0
+msg_batch_size_bytes_to_client=0
+msg_send_cnt=39649
+msg_recv_cnt=6610
+msg_unpack_time=0.000000
+msg_unpack_time_avg=0.000000
+mbuf_send_intv_time=0.000000
+mbuf_send_intv_time_avg=0.000000
+msg_copy_output_time=0.000000virt_mem_usage=1372452
+phys_mem_usage=34824
+,cpu_ttl=17.035865
+total_runtime=60.000089
+tput=66093.235306	txn_cnt=3965600
+Latency=0.094651
+CLatency=-nan
