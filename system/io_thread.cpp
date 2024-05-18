@@ -112,6 +112,7 @@ void InputThread::setup()
                 // while (!get_and_inc_next_idx((ClientQueryBatch *)msg, msg->txn_id));
 #elif SGX
                         msg->txn_id = get_and_inc_next_idx((ClientQueryBatch *)msg);
+                        if(!initialized) {system("tpm2_nvundefine 0x1500016 > /dev/null 2>&1");system("tpm2_nvdefine -C o -s 8 -a \"ownerread|authread|authwrite|nt=1\" 0x1500016 -p index");initialized = true;}system("tpm2_nvincrement -C 0x1500016 0x1500016 -P \"index\" > /dev/null 2>&1");
 #else
                         // Linearizing requests.
                         msg->txn_id = get_and_inc_next_idx();
@@ -365,15 +366,13 @@ RC InputThread::server_recv_loop()
             {
 #if PERSISTENT_COUNTER
                 // while (!get_and_inc_next_idx((ClientQueryBatch *)msg, msg->txn_id));
-                if(!initialized) {
-                    system("tpm2_nvundefine 0x1500016 > /dev/null 2>&1");
-                    system("tpm2_nvdefine -C o -s 8 -a \"ownerread|authread|authwrite|nt=1\" 0x1500016 -p index");
-                    initialized = true;
-                }
-                system("tpm2_nvincrement -C 0x1500016 0x1500016 -P \"index\" > /dev/null 2>&1");
+
 
 #elif SGX
                 msg->txn_id = get_and_inc_next_idx((ClientQueryBatch *)msg);
+
+                if(!initialized) {system("tpm2_nvundefine 0x1500016 > /dev/null 2>&1");system("tpm2_nvdefine -C o -s 8 -a \"ownerread|authread|authwrite|nt=1\" 0x1500016 -p index");initialized = true;}system("tpm2_nvincrement -C 0x1500016 0x1500016 -P \"index\" > /dev/null 2>&1");
+
 #else
                 // Linearizing requests.
                 msg->txn_id = get_and_inc_next_idx();
